@@ -5,8 +5,7 @@ using UnityEngine;
 public class BaseGunController : MonoBehaviour
 {
     // Configurable variables
-    public Sprite bulletSprite;
-    
+    public Sprite bulletSprite;    
     
     private bool canShoot = true; 
 

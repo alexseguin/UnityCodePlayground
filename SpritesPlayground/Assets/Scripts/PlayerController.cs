@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+
+    [SerializeField] private GunsController gunsController;
+    private Guns guns;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        guns = new Guns();
+        this.gunsController.SetGuns(guns);
     }
 
     // Update is called once per frame
