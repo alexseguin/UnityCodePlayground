@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb147c260f3b99d4580820dcd1c4c7cd, type: 3}
+  m_Name: Sherrif Hat
+  m_EditorClassIdentifier: 
+  art: {fileID: 21300000, guid: 29910c90d78242c4e9c8210e5317d279, type: 3}
+  title: Sherrif Hat
+  flavor: Howdy pardner, welcome to ram ranch
+  price: 3
+  sellPrice: 1
