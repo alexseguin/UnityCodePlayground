@@ -23,7 +23,7 @@ public class BaseGunController : MonoBehaviour
 
     void Shoot()
     {
-        if (Input.GetButtonDown("Fire1") && canShoot)
+        if (Input.GetButtonDown("Fire1") && canShoot && PlayerManager.canShoot())
         {
             canShoot = false;
             var muzzle = this.transform.GetChild(1);

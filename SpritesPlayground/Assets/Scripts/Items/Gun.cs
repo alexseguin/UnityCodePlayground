@@ -7,4 +7,9 @@ public class Gun
     public string name;
     public Sprite sprite;
     
+
+    public void Details()
+    {
+        
+    }
 }

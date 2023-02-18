@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    [SerializeField] private GunsController gunsController;
+    [SerializeField] private GunsMenuController gunsController;
     private Guns guns;
 
     // Start is called before the first frame update
